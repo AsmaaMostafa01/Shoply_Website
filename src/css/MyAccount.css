@@ -1,0 +1,118 @@
+/* General Styles */
+
+/* My Account Page Specific Styles */
+
+
+.account-section {
+    display: flex;
+    padding: 20px;
+}
+
+.sidebar {
+    width: 30%;
+    padding-right: 20px;
+    
+    
+    padding: 60px;
+    
+}
+
+.sidebar h3 {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 10px;
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #777;
+    display: block;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.sidebar a.active {
+    color: #ee661c;
+    font-weight: bold;
+    background-color: #f5f5f5;
+}
+
+.form-container {
+    width: 70%;
+    margin-left: 20px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) !important;
+    border-radius: 8px;
+}
+.form-container h2 {
+    color: #ee661c;
+    margin-bottom: 20px;
+}
+
+.form-container h3 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-row .form-group {
+    width: 48%;
+}
+
+.form-group label {
+    font-weight:400;
+    margin-bottom: 10px;
+}
+
+.form-group input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+button#cancel-btn, button.save-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 5px;
+}
+
+
+
+button.save-btn {
+    background-color: #f00;
+    color: #fff;
+}
+#cancel-btn {
+    background-color: #fff;
+    color: #ee661c;
+    border: 1px solid #ee661c;
+}
