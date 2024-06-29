@@ -1,0 +1,14 @@
+.breadcrumb {
+    padding: 20px;
+    background-color: #fff;
+    font-size: 14px;
+}
+
+.breadcrumb a {
+    color: #000;
+    text-decoration: none;
+}
+
+.breadcrumb span {
+    color: #777;
+}
