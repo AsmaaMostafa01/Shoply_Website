@@ -20,7 +20,7 @@ Shoply is an e-commerce website that offers new and pre-owned products. Addition
 - **Authentication**: JWT (JSON Web Tokens)
 ## Installation
 
-1. **Clone the repository**:
+1. **Clone the repository of frontend**:
 
     ```sh
     git clone https://github.com/AsmaaMostafa01/Shoply_Website.git
@@ -43,7 +43,11 @@ Shoply is an e-commerce website that offers new and pre-owned products. Addition
     npm install
     ```
 ## Running the Project
+--> **Clone the repository of BackEnd**:
 
+    ```sh
+    git clone https://github.com/AsmaaMostafa01/ShoplyBackend.git
+    ```
 ### Backend
 
 1. **Create a `.env` file in the `backend` directory** and add the following environment variables:
@@ -84,6 +88,19 @@ Shoply is an e-commerce website that offers new and pre-owned products. Addition
 
 - `GET /api/products`: Get all products
 - `GET /api/products/:id`: Get a single product by ID
+### Edit account
+- `PUT /api/myaccount` :edit your profile by adding token header and edit body
+### Contact Us
+-`POST /api/contacts` : write the message or problems to us
+-`GET//api/contacts`: get all contacts messages 
+
+## Contributing
+
+1. **Fork the repository**.
+2. **Create a new branch**: `git checkout -b feature/your-feature-name`.
+3. **Commit your changes**: `git commit -m 'Add some feature'`.
+4. **Push to the branch**: `git push origin feature/your-feature-name`.
+5. **Open a pull request**.
 
 # Getting Started with Create React App
 
