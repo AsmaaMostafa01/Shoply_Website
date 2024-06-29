@@ -11,6 +11,38 @@ Shoply is an e-commerce website that offers new and pre-owned products. Addition
 - Adding products to the cart
 - Contact page for inquiries
 - User account management
+- Payment method management
+## Tech Stack
+
+- **Frontend**: React
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB
+- **Authentication**: JWT (JSON Web Tokens)
+## Installation
+
+1. **Clone the repository**:
+
+    ```sh
+    git clone https://github.com/AsmaaMostafa01/Shoply_Website.git
+    ```
+2.**Navigate to the project directory**:
+
+    ```sh
+    cd Shoply
+    ```
+3. **Install dependencies for the backend**:
+
+    ```sh
+    cd backend
+    npm install
+    ```
+4. **Install dependencies for the frontend**:
+
+    ```sh
+    cd ../frontend
+    npm install
+    ```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
