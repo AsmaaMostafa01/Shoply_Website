@@ -1,7 +1,7 @@
 <<<<<<< HEAD
-# Shoply_Website
-Shoply is an Ecomerece website  
-=======
+#Shoply
+#Overview
+Shoply is an innovative ecommerce platform offering both new and pre-owned products. Our mission is to promote sustainability by encouraging the reuse and recycling of goods, thereby reducing waste and positively impacting the environment. The application is built with a modern technology stack, including React for the frontend and Node.js/Express for the backend. Our backend leverages MongoDB for database management and employs JWT (JSON Web Tokens) for secure user authentication and authorization.
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
