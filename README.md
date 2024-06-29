@@ -1,5 +1,5 @@
 <<<<<<< HEAD
- Shoply
+ ##Shoply
 
 Shoply is an e-commerce website that offers new and pre-owned products. Additionally, we promote sustainability by encouraging the reuse and recycling of goods, helping to reduce waste and positively impact the environment.
 
