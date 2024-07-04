@@ -7,7 +7,7 @@ import Breadcrumb from '../components/Breadcrumb';
 const Product = () => {
   return (
     <div>
-      <Header />
+      
       <Breadcrumb page="Product" />
       <main>
         
@@ -88,7 +88,7 @@ const Product = () => {
             </div>
         </section>
       </main>
-      <Footer />
+      
     </div>
   );
 }

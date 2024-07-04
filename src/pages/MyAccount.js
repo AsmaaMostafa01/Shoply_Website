@@ -10,7 +10,7 @@ import Breadcrumb from '../components/Breadcrumb';
 const MyAccount = () => {
   return (
     <div>
-      <Header />
+      
       <Breadcrumb  page="My Account"/>
       <main>
         
@@ -72,7 +72,7 @@ const MyAccount = () => {
             </div>
         </section>
       </main>
-      <Footer />
+      
     </div>
   );
 }

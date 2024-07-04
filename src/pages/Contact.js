@@ -7,7 +7,7 @@ import Breadcrumb from '../components/Breadcrumb';
 const Contact = () => {
   return (
     <div>
-      <Header />
+      
       <Breadcrumb page="Contact Us"/>
       <main>
         
@@ -54,7 +54,7 @@ const Contact = () => {
             </div>
         </section>
       </main>
-      <Footer />
+      
     </div>
   );
 }

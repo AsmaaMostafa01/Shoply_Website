@@ -33,7 +33,7 @@ const { username, email, password } = formData;
     };
   return (
     <div>
-      <Header />
+      
       <Breadcrumb page="Sign Up " />
       <main> 
         <section className="content">
@@ -78,7 +78,7 @@ const { username, email, password } = formData;
                 </div>
             </section>
       </main>
-      <Footer />
+      
     </div>
   );
 }

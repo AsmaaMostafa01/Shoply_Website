@@ -7,7 +7,7 @@ import Breadcrumb from '../components/Breadcrumb';
 const Login = () => {
   return (
     <div>
-      <Header />
+      
       <Breadcrumb page="Log In"/>
       <main>
         <section className="content">
@@ -28,7 +28,7 @@ const Login = () => {
             </div>
         </section>
       </main>
-      <Footer />
+      
     </div>
   );
 }

@@ -1,0 +1,49 @@
+.stats {
+  display: flex;
+  justify-content:center;
+  padding: 20px 0;
+ /* background: #f9f9f9;*/
+  margin-top: 20px;
+  max-width: 1200px; /* تحديد عرض الحد الأقصى */
+  margin-left: auto; /* توسيط */
+  margin-right: auto; /* توسيط */
+  padding: 0 20px; /* إضافة حشوة */
+}
+
+.stat {
+  text-align: center;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  margin: 0 10px;
+  max-width: 200px;
+}
+
+.stat .icon {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.stat .value {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.stat .label {
+  font-size: 14px;
+  color: #666;
+}
+
+.stat.highlight {
+  background: #ff6347;
+  color: #fff;
+}
+
+.stat.highlight .icon,
+.stat.highlight .value,
+.stat.highlight .label {
+  color: #fff;
+}
