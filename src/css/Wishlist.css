@@ -1,0 +1,23 @@
+/* Example CSS for Wishlist Dropdown */
+.wishlist-dropdown {
+  position: absolute;
+  top: 20px; /* Adjust position as needed */
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 1px solid black;
+  padding: 10px;
+  z-index: 10; /* Ensure dropdown is above other content */
+}
+
+.wishlist-dropdown ul {
+  list-style: none;
+  padding: 0;
+}
+
+.wishlist-dropdown ul li {
+  padding: 5px 0;
+}
+
+.wishlist-dropdown button {
+  margin-top: 10px;
+}

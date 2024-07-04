@@ -1,0 +1,27 @@
+.about {
+  padding: 20px;
+}
+
+.breadcrumb {
+  margin-bottom: 20px;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+}
+
+.about-text {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.about-image {
+  flex: 1;
+  text-align: center;
+}
+
+.about-image img {
+  max-width: 100%;
+  height: auto;
+}

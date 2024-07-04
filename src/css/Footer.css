@@ -1,0 +1,55 @@
+/* Footer styles */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-content > div {
+    width: 20%;
+    margin-bottom: 20px;
+  }
+  
+  .footer-content h3 {
+    margin-bottom: 10px;
+  }
+  
+  .footer-content ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-content ul li {
+    margin: 5px 0;
+  }
+  
+  .footer-content ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-content .download-app a {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .footer-content .download-app img {
+    width: 120px;
+  }
+  
+  .footer-bottom {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 10px 20px;
+  }
+  
