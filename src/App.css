@@ -1,3 +1,347 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Jost", sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+section{
+  padding: 5% 10%;
+  
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 20px;
+  align-items: center;
+}
+.content img {
+  max-width: 50%;
+}
+.form-container {
+  max-width: 40%;
+  padding: 100px;
+  border: 1px  #ddd;
+  
+}
+.form-container h2 {
+  margin-bottom: 20px;
+}
+.form-container input {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border-style: none;
+  border-bottom: 1px solid  #ddd;
+  
+}
+.form-container button {
+  width: 85%;
+  padding: 12px;
+  background-color: #f00;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.form-container .google-signup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #fff;
+  color: #000;
+  margin-top: 10px;
+}
+.form-container .google-signup img {
+  width: 20px;
+  margin-right: 10px;
+}
+.form-container .login-link {
+  text-align: center;
+  margin-top: 20px;
+}
+.form-container .login-link a {
+  text-decoration: none;
+  color: #00f;
+}
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 40px 0;
+  margin-top: 20px;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+  margin: 20px 0;
+}
+.footer-section h3 {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+.footer-section p, .footer-section a {
+  color: #bbb;
+  text-decoration: none;
+  line-height: 1.8;
+}
+.footer-section input[type="email"] {
+  padding: 10px;
+  width: 80%;
+  border: none;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+.footer-section button {
+  padding: 10px;
+  background-color: #fff;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.footer-section .social-icons a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 18px;
+  
+}
+.app-links img {
+  width: 120px;
+  margin: 10px 0;
+  float: left;
+  padding-left: 10px  ;
+}
+.app-links img.qr {
+  width: 100px;
+  float:inline-start;
+}
+.wrapper{
+  width: 400px;
+  max-width: 100%;
+  position: relative;
+}
+.wrapper input{
+  width: 100%;
+  padding: 1rem 2rem ;
+  border: 2px solid white;
+  border-radius: 50px;
+}
+.wrapper button {
+  background-color: #0f0f0f;
+  border-radius: 20%;
+  height: 80%;
+  aspect-ratio: 1;
+  position: absolute;
+  right: 0;
+  top: 10%;
+  margin-right: 50px;
+
+}
+.wrapper button i{
+  align-items: center;
+  font-size: 20px;
+  padding-top:30px;
+}
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .content {
+      flex-direction: column;
+      align-items: center;
+  }
+  
+  .content img, .form-container {
+      max-width: 100%;
+  }
+
+  #menu-icon {
+      display: block;
+  }
+
+  .navmenu {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      background-color: #fff;
+      position: absolute;
+      top: 50px;
+      left: 0;
+      z-index: 1000;
+  }
+
+  .navmenu li {
+      text-align: center;
+      padding: 10px 0;
+  }
+
+  .navmenu.active {
+      display: flex;
+  }
+
+  .footer-container {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .footer-section {
+      text-align: center;
+      margin: 10px 0;
+  }
+
+  .footer-section address {
+      line-height: 1.5;
+  }
+
+  .footer-section .social-icons {
+      margin-top: 10px;
+  }
+
+  /* Responsive Form Styles */
+  .form-container {
+      padding: 20px;
+  }
+
+  .form-container h2 {
+      font-size: 24px;
+  }
+
+  .form-container p {
+      font-size: 14px;
+  }
+
+  .form-container input {
+      font-size: 14px;
+  }
+
+  .form-container button, .form-container .google-signup {
+      padding: 10px;
+      font-size: 14px;
+  }
+}
+
+/* Minimum Width Responsive Styles */
+@media (max-width: 480px) {
+  .form-container {
+      padding: 15px;
+      box-shadow: none;
+      border: none;
+  }
+
+  .form-container h2 {
+      font-size: 20px;
+      margin-bottom: 15px;
+  }
+
+  .form-container input {
+      padding: 8px;
+      font-size: 12px;
+  }
+
+  .form-container button {
+      padding: 10px;
+      font-size: 12px;
+  }
+
+  .form-container .google-signup {
+      padding: 8px;
+      font-size: 12px;
+  }
+
+  .form-container .login-link a {
+      font-size: 12px;
+  }
+}
+
+
+/* Additional CSS for Login Form */
+.form-container {
+  margin: auto;
+  padding: 40px;
+ 
+  
+}
+.form-container h2 {
+  margin-bottom: 20px;
+  
+}
+
+.form-container input {
+  width: 100%;
+  padding: 15px;
+  margin: 15px 0;
+  border-style: none;
+  border-bottom: 1px solid  #ddd;
+  font-size: 16px; /* Larger font size */
+  outline: none;
+  box-shadow: none;
+}
+
+.form-container button {
+  width: 100%;
+  padding: 15px;
+  background-color: #f00;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px; /* Larger font size */
+}
+
+.form-container .google-login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #fff;
+  color: #000;
+  margin-top: 10px;
+}
+
+.form-container .google-login img {
+  width: 24px;
+  margin-right: 10px;
+}
+
+.form-container .signup-link {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.form-container .signup-link a,
+.form-container .login-link a {
+  text-decoration: none;
+  color: #ee661c; /* Changed link color */
+}
+/* Specific Styles for Log In Form */
+.login-form {
+  max-width: 600px; /* Larger width */
+}
+
+/* Specific Styles for Sign Up Form */
+.signup-form {
+  max-width: 600px; /* Smaller width */
+}
+
+
 /* Reset some default browser styles */
 body {
   font-family: Arial, sans-serif;
