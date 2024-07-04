@@ -1,5 +1,6 @@
 .team {
   display: flex;
+<<<<<<< HEAD
   justify-content: center; /* استخدام space-between لتقليل المسافات بين العناصر */
   padding: 20px 0;
   /*background: #f4f4f4;*/
@@ -26,12 +27,24 @@
 }
 
 .member-img {
+=======
+  justify-content: space-around;
+  padding: 20px 0;
+}
+
+.team-member {
+  text-align: center;
+}
+
+.team-member img {
+>>>>>>> d36b320ec61b4955360bc19d6c74d8304a5ab7dd
   width: 150px;
   height: 150px;
   border-radius: 50%;
   margin-bottom: 10px;
 }
 
+<<<<<<< HEAD
 .member-info {
   text-align: center;
 }
@@ -63,3 +76,14 @@
 .social-icons a:hover {
   color: #ff6347; /* لون الأيقونات عند التمرير */
 }
+=======
+.team-member h4 {
+  font-size: 1.5em;
+  margin-bottom: 5px;
+}
+
+.team-member p {
+  font-size: 1em;
+  color: #666;
+}
+>>>>>>> d36b320ec61b4955360bc19d6c74d8304a5ab7dd

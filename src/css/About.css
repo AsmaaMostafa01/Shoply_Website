@@ -1,4 +1,5 @@
 .about {
+<<<<<<< HEAD
   display: flex;
   align-items: center;
   justify-content: space-between; /* تعديل لجعل الصورة والنص على جانبي الصفحة */
@@ -7,6 +8,18 @@
   /*background: #f9f9f9;*/
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+=======
+  padding: 20px;
+}
+
+.breadcrumb {
+  margin-bottom: 20px;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+>>>>>>> d36b320ec61b4955360bc19d6c74d8304a5ab7dd
 }
 
 .about-text {
@@ -14,6 +27,7 @@
   padding-right: 20px;
 }
 
+<<<<<<< HEAD
 .about h2 {
   font-size: 28px;
   margin-bottom: 20px;
@@ -38,3 +52,14 @@
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+=======
+.about-image {
+  flex: 1;
+  text-align: center;
+}
+
+.about-image img {
+  max-width: 100%;
+  height: auto;
+}
+>>>>>>> d36b320ec61b4955360bc19d6c74d8304a5ab7dd

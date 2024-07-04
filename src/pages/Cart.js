@@ -18,7 +18,11 @@ const Cart = () => {
           </div>
           <div className="cart-item">
             <div className="product-info">
+<<<<<<< HEAD
               <img src="../1.png" alt="LCD Monitor" />
+=======
+              <img src="/images/lcd-monitor.jpg" alt="LCD Monitor" />
+>>>>>>> d36b320ec61b4955360bc19d6c74d8304a5ab7dd
               <span>LCD Monitor</span>
             </div>
             <div className="product-price">$650</div>
@@ -32,7 +36,11 @@ const Cart = () => {
           </div>
           <div className="cart-item">
             <div className="product-info">
+<<<<<<< HEAD
               <img src="../2.png" alt="Gamepad" />
+=======
+              <img src="/images/gamepad.jpg" alt="Gamepad" />
+>>>>>>> d36b320ec61b4955360bc19d6c74d8304a5ab7dd
               <span>HI Gamepad</span>
             </div>
             <div className="product-price">$550</div>

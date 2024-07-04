@@ -1,68 +1,84 @@
-header  {
-    display: block;
-    border-bottom: 1px solid #ddd;
-   
-  }
-  .container1{
-    background-color: #000;
-    color: #ddd;
-    text-align: center;
-    font-size: 12px;
-    padding: 10px 20px;
-    
-  }
-  .navbar{
-    
-    width: 100%;
-    top: 0;
-    right: 0;
-    z-index: 1000;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 5px 5%;
-    margin-top: 0px;
-    
-  
-  }
-  
-  .logo img{
-    max-width: 120px;
-    height: auto;
-  }
-  .navmenu{
-    display: flex;
-  }
-  .navmenu a{
-    color: #2c2c2c;
-    font-size: 16px;
-    text-transform: capitalize;
-    padding: 10px 20px;
-    font-weight: 400;
-    transition: all .42s ease;
-  }
-  .navmenu a:hover{
-    color: #ee661c;
-    border-bottom: 1px solid;
-  }
-  .nav-icon{
-    display: flex;
-    align-items: center;
-  }
-  .nav-icon i{
-    margin-right: 20px;
-    color: #2c2c2c;
-    font-size:25px ;
-    font-weight: 400;
-    transition: all .42s ease;
-  }
-  .nav-icon i:hover{
-    transform: scale(1.1);
-    color: #ee661c;
-  }
-  #menu-icon{
-    font-size: 35px;
-    color: #2c2c2c;
-    z-index: 10001;
-    cursor: pointer;
-  }
+/* Header styles */
+header {
+  background: #fff;
+  color: #000;
+  padding: 10px 20px;
+}
+
+header .top-bar {
+  width: 100%; /* Change this to 100% to span the full width */
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  box-sizing: border-box; /* Ensure padding is included in the width */
+  position: relative; /* Ensure it positions correctly within the header */
+}
+
+
+header .top-bar a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav .logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 30px;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+
+header nav ul li {
+  margin: 0 10px;
+}
+
+header nav ul li a {
+  color: #000 !important; /* Add !important to ensure it takes precedence */
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #000 !important; /* Add !important to ensure it takes precedence */
+  font-size: 1rem;
+}
+
+header nav ul li a:hover {
+  color: #ff6347 !important; /* Add !important to ensure it takes precedence */
+}
+
+.search-icons {
+  display: flex;
+  align-items: center;
+}
+
+.search-icons input {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  margin-right: 10px;
+}
+
+.search-icons .icons a {
+  margin-left: 10px;
+}
+
+.search-icons .icons img {
+  width: 24px;
+  height: 24px;
+}
